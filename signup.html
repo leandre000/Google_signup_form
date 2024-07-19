@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+</head>
+<style>
+     .header{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #2E62C7;
+    height: 80px;
+}
+.container{
+    text-align: center;
+    padding-top: 30%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+     margin-top: 110px;
+}
+.sub-header{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -1rem;
+    color: #2E62C7;
+}
+input{
+    width: 300px;
+    height: 45px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #CDDBFD;
+}
+input[type="checkbox"]{
+    width: 18px;
+    height: 17px;
+    margin-top: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #CDDBFD;
+}
+input::placeholder{
+    color: #000;
+    font-weight: 600;
+    padding-left: 10px;
+    width: 160px;
+    height: 20px;
+}
+.sign-up-btn{
+    width: 300px;
+    height: 45px;
+    margin-top: 25px;
+    border-radius: 30px;
+    border: 1px solid #00A3FF;
+    background-color: #00A3FF;
+    color: #fff;
+}
+.google{
+    width: 300px;
+    height: 45px;
+    margin-top: 2px;
+    border-radius: 30px;
+    border: 1px solid #00A3FF;
+    background-color: #fff;
+    color: #0C0C0C;
+    box-shadow: 1px 1px 1px #5F6366;
+}
+button:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: #00A3FF;
+}
+.text-bottom{
+    font-family: "Lexend Deca", sans-serif;
+    text-align: center;
+    color: #224957;
+}
+</style>
+<body>
+    
+    <form action="" method="post">
+        <div class="container">
+          <div>
+            <h1 class="header">Sign up</h1>
+          </div>
+          <div class="sub-header">
+            <h2>Create your account !</h2>
+          </div>
+          <div>
+            <input type="text" name="name" id="name" placeholder=" Enter your name" />
+          </div>
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder=" Enter your email "
+            />
+          </div>
+          <div>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder=" Enter your password"
+            />
+          </div>
+          <div>
+            <button type="submit" class="sign-up-btn">Sign up</button>
+          </div>
+          <p>OR</p>
+          <div>
+            <button type="submit" class="google">Sign in with Google</button>
+          </div>
+          <p class="text-bottom">
+            Already have an account ? <a href="login.html">Login</a>
+          </p>
+        </div>
+      </form>
+</body>
+</html>
